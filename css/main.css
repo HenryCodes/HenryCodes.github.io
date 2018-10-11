@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #4959EE;
+}
+
+.navbar-menu {
+	background-color: #4959EE;
+}
+.navbar-burger {
+	color: white;
+}
+a.navbar-item {
+	color: white;
+}
+a.navbar-item:hover {
+	background-color: transparent;
+	color: lightblue;
+}
+.header {
+	background-color: #4959EE;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.main {
+	background-color: #6495ED;
+	min-height: 200vh;
+}
+.pfp {
+	border-radius: 100%;
+	width: 250px;
+	/* Code from ao554.com */
+		transition: 0.8s ease;
+	-webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+.pfp:hover {
+	transform: rotate(360deg);
+}
+.media-content {
+	overflow-y: hidden;
+}
+a:hover .fas, a:hover .fab {
+	transform: scale(1.25);
+	color: lightblue;
+}
