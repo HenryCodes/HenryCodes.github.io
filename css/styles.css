@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: verdana, arial, sans-serif, helvetica;
-  background-image: url("https://external-preview.redd.it/gQ8kb6lOk2gBF-hJ1q4JnyqbDrkYZM8gI7RFcg_5IXg.jpg?auto=webp&s=15875b05dbc17cfce39f41dda228110ee970ec2c");
+  background-image: url("bg.jpg");
   background-size: cover;          /* Fill entire screen */
   background-repeat: no-repeat;
   background-position: center;
